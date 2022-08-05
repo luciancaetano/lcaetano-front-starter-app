@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:dev": "craco start",
+    "start:dev": "NODE_ENV=development SKIP_PREFLIGHT_CHECK=true cross-env DISABLE_ESLINT_PLUGIN=true craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@lcaetano/eslint-config": "^1.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.21.0",
     "reset-css": "^5.0.1"
   }
