@@ -1,3 +1,6 @@
 {
-    "extends": "@lcaetano/eslint-config"
+    "extends": "@lcaetano/eslint-config",
+    "globals": {
+        "JSX": true
+    }
 }

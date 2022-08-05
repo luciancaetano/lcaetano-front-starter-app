@@ -2,15 +2,15 @@
     "compilerOptions" : {
         "baseUrl": ".",
         "paths": {
+            "@components/elements": ["src/app/components/elements/index"],
+            "@components/layouts/*": ["src/app/components/layouts/*"],
+            "@components/pages/*": ["src/app/components/pages/*"],
             "@components/partials/*": ["src/app/components/partials/*"],
             "@config/*": ["src/app/config/*"],
             "@app.routes": ["src/app/config/app.routes.tsx"],
             "@media/*": ["src/media/*"],
             "@styles/*": ["src/styles/*"],
             "@hooks/*": ["src/app/hooks/*"],
-            "@components/elements": ["src/app/components/elements/index"],
-            "@components/pages": ["src/app/components/pages/index"],
-            "@components/layouts/*": ["src/app/components/layouts/*"],
             "@utils/*": ["src/app/utils/*"],
             "@types": ["src/app/types/index"]
         }

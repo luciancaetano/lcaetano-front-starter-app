@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './locale/i18next-setup';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
 import 'lens-ui/dist/index.css';
+import '@styles/index.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
