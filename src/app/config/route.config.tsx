@@ -8,7 +8,7 @@ import { createRouterHelpers } from '@lcaetano/core-ui';
 import React from 'react';
 
 export const appRoutes = {
-  home: '/',
+  todo: '/todo',
   notFound: '/404',
 };
 
